@@ -1,0 +1,125 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+.clear {
+	clear: both;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+body{
+	font-family: 'Crimson Text', Georgia, Times, serif;
+    font-size: 16px;
+    line-height: 25px;
+	text-align: center;
+	background-color: gray;
+}
+
+h1, h2 {
+	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+#page-wrapper {	
+	width: 1200px;
+	text-align: left;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#page-content {
+	padding: 3em;
+}
+
+
+header {
+	position: relative;
+}
+
+header > figure {
+	position:relative;
+	float: left;
+	margin: 2em;
+	padding: 0;
+	z-index: 5;
+}
+	header > figure > img {
+    	border: 0.5em solid rgb(113,113,113);
+	}
+
+
+header>h1{
+	float: left; display: block;
+	width:75%;
+	font-size: 4em; text-align: center; color: rgb(113,113,113); 
+    line-height: 65px;
+	margin: 0.7em 0 0 0; padding: 0;
+}
+
+header > #contact {
+	position: absolute;
+	display: block;
+	width: 100%;
+	background-color: rgb(165,195,107);
+    border: 0.2em solid rgb(113,113,113); border-left: none; border-right: none;
+	top:8em;
+	z-index: 2;
+	/*float:left;*/
+}
+	header > #contact > ul {
+		position: relative;
+		-webkit-height: 3em;
+		-moz-height: 3em;
+		-ms-height: 3em;
+		-o-height: 3em;
+		height: 3em;
+	}
+		header > #contact > ul > li {
+			position: absolute; top: 0.5em;
+			list-style-type: none;
+			background-color: rgb(113,113,113); color: rgb(233,240,218);
+			text-align: center; font-weight: bold;
+			border: 1px solid rgb(233,240,218);
+			padding: 0.3em 0.5em;
+		}
+		header > #contact > ul > li.icon {
+			position: absolute; top: 0.8em;
+			background: none;
+			padding: 0;
+			margin: 0;
+			border: none;
+		}
+
+		li#email-canvas{
+			position: absolute; left: 19em;
+			/*width: 12em;*/
+		}
+		li#email{
+			position: absolute; left: 22em;
+			/*width: 12em;*/
+		}
+		li#phone-canvas{
+			position: absolute; left: 39em;
+			/*width: 12em;*/
+		}
+		li#phone{
+			position: absolute; left: 42em;
+			/*width: 10em;*/
+		}
+		li#skype-canvas{
+			position: absolute; left: 57em;
+			/*width: 12em;*/
+		}
+		li#skype{
+			position: absolute; left: 60em;
+			/*width: 7em;*/
+		}
+header>address {
+	position: relative; top:8em;
+	float: left;
+
+}
