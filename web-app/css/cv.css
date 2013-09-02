@@ -2,6 +2,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-print-color-adjust: economy;
  }
 
 .clear {
@@ -13,7 +14,8 @@
 }
 
 body{
-	font-family: 'Crimson Text', Georgia, Times, serif;
+	/*font-family: 'Crimson Text', Georgia, Times, serif;*/
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 25px;
 	text-align: center;
@@ -22,6 +24,14 @@ body{
 
 h1, h2 {
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #666666; 
+}
+
+a:hover {
+    color: #B6090B !important;
 }
 
 #page-wrapper {	
@@ -40,14 +50,18 @@ header {
 	position: relative;
 }
 
-header > figure {
+figure {
+	padding: 0;
+	margin: 0;
+}
+
+header > figure#profile-photo {
 	position:relative;
 	float: left;
 	margin: 2em;
-	padding: 0;
 	z-index: 5;
 }
-	header > figure > img {
+	header > figure#profile-photo > img {
     	border: 0.5em solid rgb(113,113,113);
 	}
 
@@ -122,4 +136,40 @@ header>address {
 	position: relative; top:8em;
 	float: left;
 
+}
+
+section > h2 {
+	position: relative;
+	left: -2em;
+	width: 1200px;
+	border: 1px solid black;
+	border: 0.1em solid rgb(226,226,226); border-left: none; border-right: none;
+	background-color: rgb(233,240,218);
+	padding: 0.3em 2em;
+}
+
+.item-subtitle > figure {
+	float: left;
+	margin: 0 2em 1em 0;
+}
+
+.item-subtitle > h3 {
+	float: left;
+	width: 85%;
+	margin: 0; padding: 0;
+}
+
+.item-subtitle > a {
+	float: left;
+	width: 85%;
+}
+
+.item-subtitle > address {
+	float: left;
+	width: 85%;
+}
+
+.item-subtitle > .period {
+	float: left;
+	width: 85%;
 }
