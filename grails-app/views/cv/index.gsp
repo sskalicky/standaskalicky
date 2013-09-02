@@ -72,6 +72,7 @@
         <h2>Projekty</h2>
           <div class="project-item">
             <div class="item-subtitle">
+              <figure><g:img dir="images/cv" file="logo-svm-2.png"/></figure>
               <h3>Svatá Maří - úřední deska obce</h3>
               <a href="#">www.svatamari.cz</a><br/>
               <span class="period">07.2008-10.2008</span>
@@ -96,15 +97,16 @@
         <section id="education">
         <h2>Vzdělání</h2>
           <div class="education-item">
-            <h3>Západočeská univerzita v Plzni, Fakulta aplikovaných věd</h3>
-            <p class="item-subtitle">
+            <div class="item-subtitle">
+                <figure><g:img dir="images/cv" file="logo-zcu-2.png"/></figure>
+                <h3>Západočeská univerzita v Plzni, Fakulta aplikovaných věd</h3>
                 <a href="http://www.kiv.zcu.cz/">Katedra informatiky a výpočetní techniky</a>
                 <br/>
                 <em>Softwarové inženýrství (Ing.)</em>
                 <br/>
                 <span class="period">2007-2009</span>
-            </p>        
-            <p class="item-description">
+            </div>        
+            <p class="item-description clear">
             </p>
           </div>
         </section>
