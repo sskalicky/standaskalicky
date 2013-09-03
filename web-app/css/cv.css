@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import "http://fonts.googleapis.com/css?family=Enriqueta&subset=latin,latin-ext#";
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -15,15 +18,17 @@
 
 body{
 	/*font-family: 'Crimson Text', Georgia, Times, serif;*/
-	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    line-height: 25px;
+	/*font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;*/
+	font-family: "Palatino Linotype","Georgia",serif;
+    /*font-size: 1.2em;*/
+    /*line-height: 25px;*/
 	text-align: center;
 	background-color: gray;
 }
 
 h1, h2 {
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+	font-size: 1em;
 }
 
 a {
@@ -43,6 +48,7 @@ a:hover {
 
 #page-content {
 	padding: 3em;
+	font-size: 1.4em;
 }
 
 
@@ -62,16 +68,16 @@ header > figure#profile-photo {
 	z-index: 5;
 }
 	header > figure#profile-photo > img {
-    	border: 0.5em solid rgb(113,113,113);
+    	border: 0.2em solid rgb(113,113,113);
 	}
 
 
 header>h1{
 	float: left; display: block;
 	width:75%;
-	font-size: 4em; text-align: center; color: rgb(113,113,113); 
+	font-size: 3.5em; text-align: center; color: rgb(113,113,113); 
     line-height: 65px;
-	margin: 0.7em 0 0 0; padding: 0;
+	margin: 0.9em 0 0 0; padding: 0;
 }
 
 header > #contact {
@@ -138,14 +144,38 @@ header>address {
 
 }
 
+section#summary > p {
+	text-indent: 2em;
+	/*margin: 0 2em;*/
+	font-size: 1em;
+	text-align: justify;
+}
+
+section#summary > footer {
+	/*position: relative; left: 15%;	*/
+	font-size: 0.9em;
+	/*text-align: center;*/
+}
+	section#summary > footer > ul{
+		margin: 0; padding: 0 0 1em 2em;
+		list-style-position: outside;
+		text-indent: 1em;
+	}
+
 section > h2 {
 	position: relative;
-	left: -2em;
+	left: -3em;
 	width: 1200px;
 	border: 1px solid black;
 	border: 0.1em solid rgb(226,226,226); border-left: none; border-right: none;
 	background-color: rgb(233,240,218);
-	padding: 0.3em 2em;
+	padding: 0.3em 2em; margin: 2em 0;	
+}
+
+.item-subtitle {
+	float: left; display: block;
+	width: 33%;
+	font-size: 0.9em;
 }
 
 .item-subtitle > figure {
@@ -155,21 +185,76 @@ section > h2 {
 
 .item-subtitle > h3 {
 	float: left;
-	width: 85%;
+	/*width: 50%;*/
 	margin: 0; padding: 0;
 }
 
 .item-subtitle > a {
 	float: left;
-	width: 85%;
+	width: 50%;
 }
 
 .item-subtitle > address {
 	float: left;
-	width: 85%;
+	width: 50%;
+}
+
+.item-subtitle > em {
+	float: left;
+	width: 50%;
 }
 
 .item-subtitle > .period {
 	float: left;
-	width: 85%;
+	width: 50%;
+}
+
+.item-brief {
+	float: left; display: block;
+	width: 67%;
+	padding: 1em 1em 1em 3em;
+	border-left: 1px dotted rgb(226,226,226);
+
+}
+
+.item-description {
+	position: relative; left: 12%;
+	width: 88%;
+	padding: 0.5em 0;
+}
+	.item-description ul {
+		margin: 0; padding: 0 2em;
+		list-style-position: inside;
+	}
+
+.project-item > .item-subtitle {
+	width: 43%;
+}
+
+.project-item > .item-brief {
+	width: 57%;
+}
+
+.education-item {
+	position: relative; display: block;
+	float: left;
+	padding: 0.5em 0;
+}
+
+	.education-item > .item-subtitle {
+		position: relative; display: block;
+		width: 75%;
+	}
+
+	.education-item > .item-brief {
+		width: 25%;
+	}
+
+#summary li, #experience li, #projects li, #courses li, #languages li, #skills li, #interests li  {
+	list-style-type: square;
+}
+
+#courses ul, #languages ul {
+	margin: 0; padding: 0.5em;
+	text-indent: 1em;
 }

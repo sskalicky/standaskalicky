@@ -34,13 +34,17 @@
         <section id="summary" class="clear">
         <!-- <h2 class="hide">Souhrn</h2> -->
           <p>
-            Softwarový vývojář se čtyřmi lety profesionální praxe. Mám zkušenosti s vývojem na Java platformě, zahrnující zejména JavaSE a Spring framework, kde náplní práce je analýza, návrh, implementace, specifikace a údržba client/server distribuované aplikace s více vrstvou (MVC) architekturou. <br/>
-            Softwarový vývoj je zároveň mé profesionální hobby a proto se vzdělávám a sleduji trendy i za hranici mého zaměstnání každý den.<br/>
-            Jsem systematický, organizovaný, zodpovědný a komunikativní. <br/>
-            Rád bych pracoval v týmu, který klade důraz na kvalitu softwaru a nebrání se vhodným inovacím. <br/>
-
-            <em>Specializace: Java, Spring, Maven, ORM, GTD</em>
+            Softwarový vývojář se čtyřmi lety profesionální praxe. Mám zkušenosti s vývojem na Java platformě, zahrnující zejména JavaSE a Spring framework, kde náplní práce je analýza, návrh, implementace, specifikace a údržba client/server distribuované aplikace s více vrstvou (MVC) architekturou. 
+            Softwarový vývoj je zároveň mé profesionální hobby a proto se vzdělávám a sleduji trendy i za hranici mého zaměstnání.
           </p>
+          <footer>
+              <ul>
+                  <li>Jsem systematický, organizovaný, zodpovědný a komunikativní</li>
+                  <li>Hledám práci v týmu, který klade důraz na kvalitu softwaru a nebrání se vhodným inovacím</li>
+                  <li><strong>Specializace:</strong> Java, Spring, Maven, ORM, GTD</li>
+              </ul>
+          </footer>
+          
         </section>
         <section id="experience">
         <h2>Pracovní zkušenosti</h2>
@@ -52,20 +56,18 @@
               <address>Plzeň, CZ</address>
               <span class="period">2009-současnost</span>
             </div>
-            <p class="item-description clear">
-              Vývoj a údržba serverové části aplikace pro mezinárodní retailové řetězce. Hlavní náplní práce jsou projektvě specifická rozšíření produktové aplikace pro konkrétního koncového zákazníka.
-            </p>
-            <p>
-              <em>Odpovědnosti:</em>
+            <div class="item-brief">
+                Vývoj a údržba serverové části aplikace pro mezinárodní retailové řetězce. Hlavní náplní práce jsou projektvě specifická rozšíření aplikace pro konkrétního koncového zákazníka.
+            </div>
+            <div class="item-description clear">
+              <strong>Odpovědnosti:</strong>
               <ul>
                 <li>Analýza, návrh, implementace a údržba projektově specifických požadavků.</li>
                 <li>Analýza problémlů z produkčního prostředí</li>
                 <li>Code-review</li>
               </ul>
-            </p>
-            <p class="job-technical-environment">
-                <em>Technické prostředí:</em> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, GTD.
-            </p>
+              <strong>Technické prostředí:</strong> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, GTD.
+            </div>
         </div>
         </section>
         <section id="projects">
@@ -73,16 +75,16 @@
           <div class="project-item">
             <div class="item-subtitle">
               <figure><g:img dir="images/cv" file="logo-svm-2.png"/></figure>
-              <h3>Svatá Maří - úřední deska obce</h3>
-              <a href="#">www.svatamari.cz</a><br/>
+              <h3>Svatá Maří - úřední deska</h3>
+              <a href="http://www.svatamari.cz/">www.svatamari.cz</a><br/>
               <span class="period">07.2008-10.2008</span>
-            </p>
-            <p class="item-description clear">
-                server configuration
+            </div>
+            <div class="item-brief">
+                server configuration <br />
                 webapp: analysis, design, implementation, deployment
-            </p>
-            <p class="project-technical-environment">
-                Apache HTTP server, Tomcat, Java EE, JPA, MySQL, HTML, CSS, Javascript.
+            </div>
+            <p class="item-description clear">
+                <strong>Technické prostředí:</strong> Apache HTTP server, Tomcat, Java EE, JPA, MySQL, HTML, CSS, Javascript.
             </p>
           </div>
         </section>
@@ -106,11 +108,22 @@
                 <br/>
                 <span class="period">2007-2009</span>
             </div>        
-            <p class="item-description clear">
-            </p>
+          </div>
+          <div class="education-item clear">
+            <div class="item-subtitle">
+                <figure><g:img dir="images/cv" file="logo-zcu-2.png"/></figure>
+                <h3>Západočeská univerzita v Plzni, Fakulta aplikovaných věd</h3>
+                <a href="http://www.kiv.zcu.cz/">Katedra informatiky a výpočetní techniky</a>
+                <br/>
+                <em>Informatika (Bc.)</em>
+                <br/>
+                <span class="period">2003-2007</span>
+            </div>        
+            <!-- <p class="item-description">
+            </p> -->
           </div>
         </section>
-        <section id="languages">
+        <section id="languages" class="clear">
         <h2>Jazyky</h2>
           <ul>
             <li>anglický (B2-znalost umožňující profesionální práci)</li>
