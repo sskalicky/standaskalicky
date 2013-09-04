@@ -102,7 +102,7 @@ header > #contact {
 			position: absolute; top: 0.5em;
 			list-style-type: none;
 			background-color: rgb(113,113,113); color: rgb(233,240,218);
-			text-align: center; font-weight: bold;
+			text-align: center; 
 			border: 1px solid rgb(233,240,218);
 			padding: 0.3em 0.5em;
 		}
@@ -211,8 +211,8 @@ section > h2 {
 
 .item-brief {
 	float: left; display: block;
-	width: 67%;
-	padding: 1em 1em 1em 3em;
+	width: 65%;
+	padding: 1em 1em 1em 2.1em;
 	border-left: 1px dotted rgb(226,226,226);
 
 }
@@ -223,7 +223,7 @@ section > h2 {
 	padding: 0.5em 0;
 }
 	.item-description ul {
-		margin: 0; padding: 0 2em;
+		margin: 0; padding: 0 2em 1em 2em;
 		list-style-position: inside;
 	}
 
@@ -232,13 +232,13 @@ section > h2 {
 }
 
 .project-item > .item-brief {
-	width: 57%;
+	width: 55%;
 }
 
 .education-item {
 	position: relative; display: block;
 	float: left;
-	padding: 0.5em 0;
+	padding: 0 0 1em 0;
 }
 
 	.education-item > .item-subtitle {
@@ -258,3 +258,37 @@ section > h2 {
 	margin: 0; padding: 0.5em;
 	text-indent: 1em;
 }
+
+table {
+	border-collapse: collapse;
+}
+
+tr {
+}
+
+th, td {
+	padding: 0.5em;
+	border: 1px solid rgb(226,226,226); 
+}
+	th {
+		width: 25%;
+	}
+
+	td {
+		width: 75%;
+	}
+
+#interests ul{
+	margin: 0; padding: 1em;	
+}
+
+	#interests ul li{
+		display: inline;
+		line-height: 2.5em;
+		list-style-type: none; 
+		padding: 0.2em; margin: 0 0.5em 0 0;
+		background-color: rgb(226,226,226);
+		-webkit-border-radius: 10%;
+		-moz-border-radius: 10%;
+		border-radius: 10%;
+	}

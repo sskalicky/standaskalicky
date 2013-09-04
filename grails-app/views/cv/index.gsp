@@ -17,9 +17,12 @@
         <h1>Stanislav Skalický</h1>
         <section id="contact">
         <ul>
-            <li class="icon" id="email-canvas"></li><li id="email">skalicky.s@gmail.com</li>
-            <li class="icon" id="phone-canvas"></li><li id="phone">+420 728 178 656</li>
-            <li class="icon" id="skype-canvas"></li><li id="skype">stanislavskalicky</li>
+            <li class="icon" id="email-canvas"><g:img dir="images/cv" file="email-2.png"/></li>
+            <li id="email">skalicky.s@gmail.com</li>
+            <li class="icon" id="phone-canvas"><g:img dir="images/cv" file="phone-2.png"/></li>
+            <li id="phone">+420 728 178 656</li>
+            <li class="icon" id="skype-canvas"><g:img dir="images/cv" file="skype-2.png"/></li>
+            <li id="skype">stanislavskalicky</li>
         </ul>
         </section>
         <address>Svatá Maří 83, Vimperk, Česká Republika</address>
@@ -36,15 +39,8 @@
           <p>
             Softwarový vývojář se čtyřmi lety profesionální praxe. Mám zkušenosti s vývojem na Java platformě, zahrnující zejména JavaSE a Spring framework, kde náplní práce je analýza, návrh, implementace, specifikace a údržba client/server distribuované aplikace s více vrstvou (MVC) architekturou. 
             Softwarový vývoj je zároveň mé profesionální hobby a proto se vzdělávám a sleduji trendy i za hranici mého zaměstnání.
+            Hledám práci v týmu, který klade důraz na kvalitu softwaru a má zájem zlepšovat své profesionální dovednosti.
           </p>
-          <footer>
-              <ul>
-                  <li>Jsem systematický, organizovaný, zodpovědný a komunikativní</li>
-                  <li>Hledám práci v týmu, který klade důraz na kvalitu softwaru a nebrání se vhodným inovacím</li>
-                  <li><strong>Specializace:</strong> Java, Spring, Maven, ORM, GTD</li>
-              </ul>
-          </footer>
-          
         </section>
         <section id="experience">
         <h2>Pracovní zkušenosti</h2>
@@ -64,7 +60,7 @@
               <ul>
                 <li>Analýza, návrh, implementace a údržba projektově specifických požadavků.</li>
                 <li>Analýza problémlů z produkčního prostředí</li>
-                <li>Code-review</li>
+                <li>Refactoring, Code review, Design review</li>
               </ul>
               <strong>Technické prostředí:</strong> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, GTD.
             </div>
@@ -80,12 +76,17 @@
               <span class="period">07.2008-10.2008</span>
             </div>
             <div class="item-brief">
-                server configuration <br />
-                webapp: analysis, design, implementation, deployment
+              Kompletní řešení webové prezentace s důrazem na úřední desku obecního úřadu. Nasazení systému pro správu obsahu založeného na Java EE a XML.
             </div>
-            <p class="item-description clear">
-                <strong>Technické prostředí:</strong> Apache HTTP server, Tomcat, Java EE, JPA, MySQL, HTML, CSS, Javascript.
-            </p>
+            <div class="item-description clear">
+              <strong>Odpovědnosti:</strong>
+                <ul>
+                  <li>Konfigurace produkčního unix serveru</li>
+                  <li>Web aplikace: analýza požadavků, design, implementace, nasazení do produkce, údržba</li>
+                  <li>Zaškolení editorů obashu</li>
+                </ul>
+                <strong>Technické prostředí:</strong> Apache HTTP server, Tomcat, Java EE, Opencms, JPA, MySQL, HTML, CSS, Javascript.
+            </div>
           </div>
         </section>
         <section id="courses">
@@ -109,7 +110,7 @@
                 <span class="period">2007-2009</span>
             </div>        
           </div>
-          <div class="education-item clear">
+          <div class="education-item">
             <div class="item-subtitle">
                 <figure><g:img dir="images/cv" file="logo-zcu-2.png"/></figure>
                 <h3>Západočeská univerzita v Plzni, Fakulta aplikovaných věd</h3>
@@ -132,43 +133,47 @@
         </section>
         <section id="skills">
         <h2>Dovednosti a odbornosti</h2>
-          <section class="skills-section">
-            <h4>Jazyky a frameworky</h4>
-            <ul>
-              <li>Java</li>
-              <li>jUnit</li>
-              <li>Spring</li>
-              <li>SQL (Oracle, MySQL)</li>
-              <li>XML</li>
-            </ul>
-          </section>
-          <section class="skills-section">
-            <h4>Nástroje</h4>
-            <ul>
-              <li>Maven</li>
-              <li>Subversion</li>
-              <li>Jenkins</li>
-              <li>Eclipse/IntelliJ idea</li>
-            </ul>
-          </section>
+            <table>
+              <tr>
+                <th>Jazyky/frameworky</th>
+                <td>Java, Spring, JDBC, ORM, RMI, JUnit, Log4J, XML etc.</td>
+              </tr>
+
+              <tr>
+                <th>Nástroje</th>
+                <td>Maven2, SVN, Jenkins, Nexus, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, etc.</td>
+              </tr>
+
+              <tr>
+                <th>Platforms</th>
+                <td>Databases(Oracle, MySQL), OS(Windows, Unix), App servers(Tomcat, Apache HTTP server)</td>
+              </tr>
+
+              <tr>
+                <th>Design</th>
+                <td>Objektově orientovaná analýza a návrh, GoF Design patterns, UML</td>
+              </tr>
+
+              <tr>
+                <th>Další</th>
+                <td>SQL, HTML, CSS, XML, XSD, WSDL, JSON, etc.</td>
+              </tr>
+            </table>
         </section>
         <section id="interests">
         <h2>Zájmy</h2>
-          <p>
-            Zajímám se také o:
+            Aktuálně se zajímám také o:
             <ul>
-              <li>Návrhové vzory</li>
-              <li>Agilní vývoj (Scrum, Test-Driven/Behaviour-driven development)</li>
-              <li>Continuous delivery/continuos integration</li>
-              <li>Saas/Paas/Iaas</li>
+              <li>Spring MVC</li>
+              <li>Java EE</li>
               <li>Groovy</li>
               <li>NoSQL(MongoDB)</li>
               <li>Git</li>
-              <li>Spring MVC, Java EE</li>
-              <li>JSON</li>
-              <li>Unix</li>
+              <li>Agilní vývoj (Scrum, TDD/BDD)</li>
+              <li>CD/CI</li>
+              <li>Saas/Paas/Iaas</li>
+              <li>Návrhové vzory</li>
             </ul>
-          </p>
         </section>
     </section>
   </section>
