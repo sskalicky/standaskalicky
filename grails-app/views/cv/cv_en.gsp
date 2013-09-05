@@ -3,7 +3,7 @@
 <head>
   <title>Curriculum vitae</title>
   <meta charset="utf-8">
-  <meta name="keywords" content="životopis, cv, curriculum vitae, resume, java, programátor, software, development, developer">
+  <meta name="keywords" content="resume, cv, curriculum vitae, java, programmer, developer, software, development">
   <link rel="stylesheet" href="${resource(dir: 'css', file: 'cv.css')}" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Allerta" rel="stylesheet" type="text/css">
@@ -25,7 +25,7 @@
             <li id="skype">stanislavskalicky</li>
         </ul>
         </section>
-        <address>Svatá Maří 83, Vimperk, Česká Republika</address>
+        <address>Svata Mari 83, Vimperk, Czech Republic</address>
     </header>
     <section id="page-content">
         <!-- <section id="social" class="clear">
@@ -37,60 +37,58 @@
         <section id="summary" class="clear">
         <!-- <h2 class="hide">Souhrn</h2> -->
           <p>
-            Softwarový vývojář se čtyřmi lety profesionální praxe. Mám zkušenosti s vývojem na Java platformě, zahrnující zejména JavaSE a Spring framework, kde náplní práce je analýza, návrh, implementace, specifikace a údržba client/server distribuované aplikace s více vrstvou (MVC) architekturou. 
-            Softwarový vývoj je zároveň mé profesionální hobby a proto se vzdělávám a sleduji trendy i za hranici mého zaměstnání.
-            Hledám práci v týmu, který klade důraz na kvalitu softwaru a má zájem zlepšovat své profesionální dovednosti.
+            Software developer with 4 years of professional experience. I have skills with development on Java platform, including Java SE and Spring framework above all. I am experienced in the analysis, design, implementation, specification and maintenance of client/server, distributed application with multi&#x2011tiered (MVC) architecture. Software development is also my professional hobby, hence I educate myself, enhance my skills and constantly seek information about new technology and trends beyond my employment. I am looking for a job in team of people who have software quality as their highest priority and are willing to improve their professional skills.
           </p>
         </section>
         <section id="experience">
-        <h2>Pracovní zkušenosti</h2>
+        <h2>Work experience</h2>
         <div class="job-item">
             <div class="item-subtitle">
               <figure><g:img dir="images/cv" file="eurosoftware-logo-3.png"/></figure>
               <h3>Java developer</h3>
               <a href="http://www.eurosoftware.cz/cs">Eurosoftware</a>
-              <address>Plzeň, CZ</address>
-              <span class="period">2009-současnost</span>
+              <address>Pilsen, CZ</address>
+              <span class="period">2009-Current</span>
             </div>
             <div class="item-brief">
-                Vývoj a údržba serverové části aplikace pro mezinárodní retailové řetězce. Hlavní náplní práce jsou projektvě specifická rozšíření aplikace pro konkrétního koncového zákazníka.
+                Developing and maintaining server side of company 'GK Retail Store Solution' application. My responsibility is mostly adapting the application for the needs of particular customer, implementation of customer-specific requirements and extensions.
             </div>
             <div class="item-description clear">
-              <strong>Odpovědnosti:</strong>
+              <strong>Responsibilities:</strong>
               <ul>
-                <li>Analýza, návrh, implementace a údržba projektově specifických požadavků.</li>
-                <li>Analýza problémlů z produkčního prostředí</li>
+                <li>Project specific requirements analysis, design, implementation and maintenance</li>
+                <li>Analysis of problems coming from productive environment</li>
                 <li>Refactoring, Code review, Design review</li>
               </ul>
-              <strong>Technické prostředí:</strong> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, GTD.
+              <strong>Technical environment:</strong> Java, Spring, Maven2, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, GTD.
             </div>
         </div>
         </section>
         <section id="projects">
-        <h2>Projekty</h2>
+        <h2>Projects</h2>
           <div class="project-item">
             <div class="item-subtitle">
               <figure><g:img dir="images/cv" file="logo-svm-2.png"/></figure>
-              <h3>Svatá Maří - úřední deska</h3>
+              <h3>Svata Mari - official board</h3>
               <a href="http://www.svatamari.cz/">www.svatamari.cz</a><br/>
               <span class="period">07.2008-10.2008</span>
             </div>
             <div class="item-brief">
-              Kompletní řešení webové prezentace s důrazem na úřední desku obecního úřadu. Nasazení systému pro správu obsahu založeného na Java EE a XML.
+              Complete solution of web application with emphasis put on official town council board. Content management system based on Java EE and XML - installation, implementation and deployment.
             </div>
             <div class="item-description clear">
-              <strong>Odpovědnosti:</strong>
+              <strong>Responsibilities:</strong>
                 <ul>
-                  <li>Konfigurace produkčního unix serveru</li>
-                  <li>Web aplikace: analýza požadavků, design, implementace, nasazení do produkce, údržba</li>
-                  <li>Zaškolení editorů obashu</li>
+                  <li>Unix server setup and configuration</li>
+                  <li>Web application: analýza požadavků, design, implementace, nasazení do produkce, maintenance</li>
+                  <li>Content editors schooling</li>
                 </ul>
-                <strong>Technické prostředí:</strong> Apache HTTP server, Tomcat, Java EE, Opencms, JPA, MySQL, HTML, CSS, Javascript.
+                <strong>Technical environment:</strong> Apache HTTP server, Tomcat, Java EE, Opencms, JPA, MySQL, HTML, CSS, Javascript.
             </div>
           </div>
         </section>
         <section id="courses">
-        <h2>Kurzy a školení</h2>
+        <h2>Independent courses</h2>
           <ul>
             <li>02/2013 - CS169.1x:Software as a Service (BerkleyX - an online learning)</li>
             <li>03/2103 - CS169.2x:Advanced software as a Service (BerkleyX - an online learning)</li>
@@ -98,14 +96,14 @@
           </ul>
         </section>
         <section id="education">
-        <h2>Vzdělání</h2>
+        <h2>Education</h2>
           <div class="education-item">
             <div class="item-subtitle">
                 <figure><g:img dir="images/cv" file="logo-zcu-2.png"/></figure>
-                <h3>Západočeská univerzita v Plzni, Fakulta aplikovaných věd</h3>
-                <a href="http://www.kiv.zcu.cz/">Katedra informatiky a výpočetní techniky</a>
+                <h3>University of West Bohemia, Faculty of Applied Sciences</h3>
+                <a href="http://www.kiv.zcu.cz/">Department of Computer Science and Engineering</a>
                 <br/>
-                <em>Softwarové inženýrství (Ing.)</em>
+                <em>Software Engineering (Master degree)</em>
                 <br/>
                 <span class="period">2007-2009</span>
             </div>        
@@ -113,10 +111,10 @@
           <div class="education-item">
             <div class="item-subtitle">
                 <figure><g:img dir="images/cv" file="logo-zcu-2.png"/></figure>
-                <h3>Západočeská univerzita v Plzni, Fakulta aplikovaných věd</h3>
-                <a href="http://www.kiv.zcu.cz/">Katedra informatiky a výpočetní techniky</a>
+                <h3>University of West Bohemia, Faculty of Applied Sciences</h3>
+                <a href="http://www.kiv.zcu.cz/">Department of Computer Science and Engineering</a>
                 <br/>
-                <em>Informatika (Bc.)</em>
+                <em>Computer Science (Bachelor degree)</em>
                 <br/>
                 <span class="period">2003-2007</span>
             </div>        
@@ -125,14 +123,15 @@
           </div>
         </section>
         <section id="languages" class="clear">
-        <h2>Jazyky</h2>
+        <h2>Languages</h2>
           <ul>
-            <li>anglický (B2-znalost umožňující profesionální práci)</li>
-            <li>německý (A1-elementární znalost)</li>
+            <li>Czech (native proficiency)</li>
+            <li>English (B2 - professional working proficiency)</li>
+            <li>German (A1 - elementary) </li>
           </ul>
         </section>
         <section id="skills">
-        <h2>Dovednosti a odbornosti</h2>
+        <h2>Skills</h2>
             <table>
               <tr>
                 <th>Jazyky/frameworky</th>
@@ -140,7 +139,7 @@
               </tr>
 
               <tr>
-                <th>Nástroje</th>
+                <th>Tools</th>
                 <td>Maven2, SVN, Jenkins, Nexus, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, etc.</td>
               </tr>
 
@@ -151,28 +150,33 @@
 
               <tr>
                 <th>Design</th>
-                <td>Objektově orientovaná analýza a návrh, GoF Design patterns, UML</td>
+                <td>Object oriented analysis and design, GoF Design patterns, UML</td>
               </tr>
 
               <tr>
-                <th>Další</th>
+                <th>Organization/Methodology</th>
+                <td>GTD, TDD</td>
+              </tr>
+
+              <tr>
+                <th>Other</th>
                 <td>SQL, HTML, CSS, XML, XSD, WSDL, JSON, etc.</td>
               </tr>
             </table>
         </section>
         <section id="interests">
-        <h2>Zájmy</h2>
-            Aktuálně se zajímám také o:
+        <h2>Interests</h2>
+            I am also interested in:
             <ul>
               <li>Spring MVC</li>
               <li>Java EE</li>
               <li>Groovy</li>
               <li>NoSQL(MongoDB)</li>
               <li>Git</li>
-              <li>Agilní vývoj (Scrum, TDD/BDD)</li>
+              <li>Agile methodology (Scrum, TDD/BDD)</li>
               <li>CD/CI</li>
               <li>Saas/Paas/Iaas</li>
-              <li>Návrhové vzory</li>
+              <li>Design patterns</li>
             </ul>
         </section>
     </section>

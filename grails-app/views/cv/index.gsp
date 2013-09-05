@@ -155,6 +155,11 @@
               </tr>
 
               <tr>
+                <th>Organization/Methodology</th>
+                <td>GTD, TDD</td>
+              </tr>
+
+              <tr>
                 <th>Další</th>
                 <td>SQL, HTML, CSS, XML, XSD, WSDL, JSON, etc.</td>
               </tr>
