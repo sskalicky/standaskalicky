@@ -134,7 +134,7 @@
         <h2>Skills</h2>
             <table>
               <tr>
-                <th>Jazyky/frameworky</th>
+                <th>Languages/frameworks</th>
                 <td>Java, Spring, JDBC, ORM, RMI, JUnit, Log4J, XML etc.</td>
               </tr>
 
