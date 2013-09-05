@@ -23,7 +23,7 @@ body{
     /*font-size: 1.2em;*/
     /*line-height: 25px;*/
 	text-align: center;
-	background-color: white;
+	background-color: gray;
 }
 
 h1, h2 {
@@ -146,7 +146,6 @@ header>address {
 
 section#summary > p {
 	text-indent: 3em;
-	padding: 1.7em 0;
 	/*margin: 0 2em;*/
 	font-size: 1em;
 	text-align: justify;
