@@ -37,7 +37,7 @@
         <section id="summary" class="clear">
         <!-- <h2 class="hide">Souhrn</h2> -->
           <p>
-            Software developer with 4 years of professional experience. I have skills with development on Java platform, including Java SE and Spring framework above all. I am experienced in the analysis, design, implementation, specification and maintenance of client/server, distributed application with multi&#x2011tiered (MVC) architecture. Software development is also my professional hobby, hence I educate myself, enhance my skills and constantly seek information about new technology and trends beyond my employment. I am looking for a job in team of people who have software quality as their highest priority and are willing to improve their professional skills.
+            Software developer with 4 years of professional experience. I have skills with development on Java platform, including Java SE and Spring framework above all. I am experienced in the analysis, design, implementation, specification and maintenance of client/server, distributed application with multi&#x2011tiered (MVC) architecture. Software development is also my professional hobby, hence I educate myself, enhance my skills and constantly seek information about new technology and trends beyond my employment. I am looking for a job in a team of people who have software quality as their highest priority and are willing to improve their professional skills.
           </p>
         </section>
         <section id="experience">
@@ -74,13 +74,13 @@
               <span class="period">07.2008-10.2008</span>
             </div>
             <div class="item-brief">
-              Complete solution of web application with emphasis put on official town council board. Content management system based on Java EE and XML - installation, implementation and deployment.
+              Complete solution of a web application with emphasis put on official town council board. Content management system based on Java EE and XML - installation, implementation and deployment.
             </div>
             <div class="item-description clear">
               <strong>Responsibilities:</strong>
                 <ul>
                   <li>Unix server setup and configuration</li>
-                  <li>Web application: analýza požadavků, design, implementace, nasazení do produkce, maintenance</li>
+                  <li>Web application: Requirements analysis, design, implementation, deployment, maintenance</li>
                   <li>Content editors schooling</li>
                 </ul>
                 <strong>Technical environment:</strong> Apache HTTP server, Tomcat, Java EE, Opencms, JPA, MySQL, HTML, CSS, Javascript.
@@ -127,7 +127,7 @@
           <ul>
             <li>Czech (native proficiency)</li>
             <li>English (B2 - professional working proficiency)</li>
-            <li>German (A1 - elementary) </li>
+            <li>German (A1 - elementary proficiency) </li>
           </ul>
         </section>
         <section id="skills">
