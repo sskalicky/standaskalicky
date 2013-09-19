@@ -141,7 +141,7 @@
 
               <tr>
                 <th>Nástroje</th>
-                <td>Maven2, SVN, Jenkins, Nexus, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, etc.</td>
+                <td>Maven2, SVN, Jenkins, Nexus, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, JIRA, etc.</td>
               </tr>
 
               <tr>
