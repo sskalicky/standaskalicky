@@ -37,7 +37,7 @@
         <section id="summary" class="clear">
         <!-- <h2 class="hide">Souhrn</h2> -->
           <p>
-            Software developer with 4 years of professional experience. I have skills with development on Java platform, including Java SE and Spring framework above all. I am experienced in the analysis, design, implementation, specification and maintenance of client/server, distributed application with multi&#x2011tiered (MVC) architecture. Software development is also my professional hobby, hence I educate myself, enhance my skills and constantly seek information about new technology and trends beyond my employment. I am looking for a job in a team of people who have software quality as their highest priority and are willing to improve their professional skills.
+            Software developer with 4+ years of professional experience. I have skills with development on Java platform, including Java SE and Spring framework above all. I am experienced in the analysis, design, implementation, specification and maintenance of client/server, distributed application with multi&#x2011tiered (MVC) architecture. Software development is also my professional hobby, hence I educate myself, enhance my skills and constantly seek information about new technology and trends beyond my employment. I am looking for a job in a team of people who have software quality as their highest priority and are willing to improve their professional skills.
           </p>
         </section>
         <section id="experience">
@@ -60,7 +60,7 @@
                 <li>Analysis of problems coming from productive environment</li>
                 <li>Refactoring, Code review, Design review</li>
               </ul>
-              <strong>Technical environment:</strong> Java, Spring, Maven2, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, GTD.
+              <strong>Technical environment:</strong> Java, Spring, Maven2, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, JIRA, GTD.
             </div>
         </div>
         </section>
@@ -140,7 +140,7 @@
 
               <tr>
                 <th>Tools</th>
-                <td>Maven2, SVN, Jenkins, Nexus, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, etc.</td>
+                <td>Maven2, SVN, Jenkins, Nexus, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, JIRA, etc.</td>
               </tr>
 
               <tr>

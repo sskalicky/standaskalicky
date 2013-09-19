@@ -37,7 +37,7 @@
         <section id="summary" class="clear">
         <!-- <h2 class="hide">Souhrn</h2> -->
           <p>
-            Softwarový vývojář se čtyřmi lety profesionální praxe. Mám zkušenosti s vývojem na Java platformě, zahrnující zejména JavaSE a Spring framework, kde náplní práce je analýza, návrh, implementace, specifikace a údržba client/server distribuované aplikace s více vrstvou (MVC) architekturou. 
+            Softwarový vývojář s více než čtyřmi lety profesionální praxe. Mám zkušenosti s vývojem na Java platformě, zahrnující zejména JavaSE a Spring framework, kde náplní práce je analýza, návrh, implementace, specifikace a údržba client/server distribuované aplikace s více vrstvou (MVC) architekturou. 
             Softwarový vývoj je zároveň mé profesionální hobby a proto se vzdělávám a sleduji trendy i za hranici mého zaměstnání.
             Hledám práci v týmu, který klade důraz na kvalitu softwaru a má zájem zlepšovat své profesionální dovednosti.
           </p>
@@ -62,7 +62,7 @@
                 <li>Analýza problémlů z produkčního prostředí</li>
                 <li>Refactoring, Code review, Design review</li>
               </ul>
-              <strong>Technické prostředí:</strong> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, GTD.
+              <strong>Technické prostředí:</strong> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, JIRA, GTD.
             </div>
         </div>
         </section>
