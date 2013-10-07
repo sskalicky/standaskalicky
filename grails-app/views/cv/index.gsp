@@ -25,7 +25,7 @@
             <li id="skype">stanislavskalicky</li>
         </ul>
         </section>
-        <address>Svatá Maří 83, Vimperk, Česká Republika</address>
+        <address>Plzeň, Česká Republika</address>
     </header>
     <section id="page-content">
         <!-- <section id="social" class="clear">

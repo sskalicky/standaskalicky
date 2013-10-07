@@ -25,7 +25,7 @@
             <li id="skype">stanislavskalicky</li>
         </ul>
         </section>
-        <address>Svata Mari 83, Vimperk, Czech Republic</address>
+        <address>Pilsen, Czech Republic</address>
     </header>
     <section id="page-content">
         <!-- <section id="social" class="clear">
