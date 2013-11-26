@@ -62,7 +62,7 @@
                 <li>Analýza problémlů z produkčního prostředí</li>
                 <li>Refactoring, Code review, Design review</li>
               </ul>
-              <strong>Technické prostředí:</strong> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, JIRA, GTD.
+              <strong>Technické prostředí:</strong> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Eclipse, JIRA, GTD.
             </div>
         </div>
         </section>
@@ -135,13 +135,13 @@
         <h2>Dovednosti a odbornosti</h2>
             <table>
               <tr>
-                <th>Jazyky/frameworky</th>
-                <td>Java, Spring, JDBC, ORM, RMI, JUnit, Log4J, XML etc.</td>
+                <th>Jazyky/frameworky/specifikace</th>
+                <td>Java, Spring, JDBC, ORM, JUnit, XML, etc.</td>
               </tr>
 
               <tr>
                 <th>Nástroje</th>
-                <td>Maven2, SVN, Jenkins, Nexus, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, JIRA, etc.</td>
+                <td>Maven, SVN, Jenkins, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, JIRA, etc.</td>
               </tr>
 
               <tr>
@@ -161,7 +161,7 @@
 
               <tr>
                 <th>Další</th>
-                <td>SQL, HTML, CSS, XML, XSD, WSDL, JSON, etc.</td>
+                <td>SQL, HTML, CSS, XML, XSD, JSON, etc.</td>
               </tr>
             </table>
         </section>

@@ -60,7 +60,7 @@
                 <li>Analysis of problems coming from productive environment</li>
                 <li>Refactoring, Code review, Design review</li>
               </ul>
-              <strong>Technical environment:</strong> Java, Spring, Maven2, jUnit, XML, ORM, SQL, Oracle, Jenkins, Nexus, Eclipse, JIRA, GTD.
+              <strong>Technical environment:</strong> Java, Spring, Maven, jUnit, XML, ORM, SQL, Oracle, Jenkins, Eclipse, JIRA, GTD.
             </div>
         </div>
         </section>
@@ -134,13 +134,13 @@
         <h2>Skills</h2>
             <table>
               <tr>
-                <th>Languages/frameworks</th>
-                <td>Java, Spring, JDBC, ORM, RMI, JUnit, Log4J, XML etc.</td>
+                <th>Languages/frameworks/specifications</th>
+                <td>Java, Spring, JDBC, ORM, JUnit, XML, etc.</td>
               </tr>
 
               <tr>
                 <th>Tools</th>
-                <td>Maven2, SVN, Jenkins, Nexus, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, JIRA, etc.</td>
+                <td>Maven, SVN, Jenkins, Eclipse/IntelliJ Idea/Sublime text 2, Soap UI, JVisualVM, JIRA, etc.</td>
               </tr>
 
               <tr>
@@ -160,7 +160,7 @@
 
               <tr>
                 <th>Other</th>
-                <td>SQL, HTML, CSS, XML, XSD, WSDL, JSON, etc.</td>
+                <td>SQL, HTML, CSS, XML, XSD, JSON, etc.</td>
               </tr>
             </table>
         </section>
